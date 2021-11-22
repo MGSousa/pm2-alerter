@@ -1,0 +1,13 @@
+[package]
+name = "rs-zabbix-sender"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+zbx_sender = "0.2.2"
+bstr = "0.2.17"
+serde_json = "1.0.69"
+serde = { version = "1.0.118", features = ["derive"] }
+regex = "1.5.4"
+lazy_static = "1.4.0"
+clap = "3.0.0-beta.5"
